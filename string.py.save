@@ -1,0 +1,32 @@
+s = raw_input ("please enter a word")
+upper_s = s.upper()
+print (upper_s)
+lower_s = s.lower()
+print (lower_s)
+print (lower_s) +" "+ (upper_s)
+combined = upper_s +" "+ lower_s
+print combined
+
+num_s = len(s)
+print num_s
+num_combined = len(combined)
+print num_combined
+
+halfway = len(s)/2
+print ("halfway is")
+print(s[halfway])
+print ("first letter is")
+print(s[0])
+
+last = len(s)
+print ("last letter is")
+print (s[-1**99])
+print ("second letter is")
+print (s[1**99])
+
+copy = s[:]
+skip = s[1::2]
+print "skip characters"
+print (skip)
+
+words = s.split() print "split words" print (words[0:2:])
